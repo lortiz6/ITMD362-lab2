@@ -79,3 +79,15 @@ h1 {
 .submit-button:hover {
   background-color: #0400ff;
 }
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 350px;
+  }
+
+  .contact-box {
+    max-width: 380px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
