@@ -53,3 +53,7 @@ body {
   padding: 25px 40px;
   width: 100%; /* Full width on mobile */
 }
+
+h1 {
+  margin-bottom: 20px;
+}
