@@ -37,3 +37,8 @@ body {
   padding: 20px;
   width: 100%;
 }
+
+.left {
+  text-align: left;
+  width: 100%;
+}
