@@ -65,3 +65,13 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+.submit-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e50df0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
