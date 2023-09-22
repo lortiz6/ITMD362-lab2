@@ -50,6 +50,7 @@ body {
 
 .right {
   text-align: center;
+  font-weight: bold;
   padding: 25px 40px;
   width: 100%;
 }
@@ -67,7 +68,9 @@ h1 {
   border: 1px solid #ccc;
   border-radius: 4px;
   text-align: center;
+  margin-top: 10px;
 }
+
 
 .submit-button {
   width: 100%;
@@ -83,14 +86,20 @@ h1 {
   background-color: #0400ff;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 800px) {
   .container {
-    max-width: 350px;
+    max-width: 850px;
   }
 
   .contact-box {
-    max-width: 380px;
+    max-width: 880px;
     flex-direction: row;
     justify-content: space-between;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    font-weight: bolder;
+    font-size: 30px;
   }
 }
